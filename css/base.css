@@ -10,9 +10,9 @@
 * 05:aside
 * 06:contents
 * 07:note
-* 08:vertical line
-*09:sidebar
-*10:footer
+* 08:lanes
+* 09:sidebar
+* 10:footer
 ===================================*/
 
 /*---------------------------------------------------------
@@ -34,6 +34,7 @@ body {
 	width: 100%;
 	background-color: #fff;
 	line-height: 1.5em;
+	overflow: hidden;
 }
 /*
 a:link {
@@ -191,7 +192,7 @@ aside ul.doc li {
 	width: calc(100% - 170px);
 	height: calc(100vh - 60px);
 	float: right;
-	overflow: scroll;
+	overflow: hidden;
 	background-color: #f0f0f0;
 }
 #contents section {
@@ -247,6 +248,7 @@ aside ul.doc li {
 	border-bottom: 1px solid #666;
 	overflow: auto;
 	text-align: left;
+	overflow: hidden;
 }
 
 .note .noteTitle input[type="text"] {
@@ -311,6 +313,7 @@ aside ul.doc li {
 	width: 100%;
 	overflow: auto;
 	background-color: #a6a6a6;
+	overflow: hidden;
 }
 
 .lane .laneTitle input[type="text"] {
