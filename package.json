@@ -23,6 +23,6 @@
     "react-rnd": "^10.1.9",
     "react-router-dom": "^5.1.2",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
